@@ -15,10 +15,11 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vh;
+    min-width: 100%;
     background-color: var(--lighter-pink);
     font-family: "Playwrite IN", 'Times New Roman', Times, serif;
     font-optical-sizing: auto;
@@ -26,34 +27,13 @@ html, body {
     font-style: normal;
 }
 
-@media (max-width: 768px) {
-    .wrapper {
-        padding: 0.5rem;
-    }
-}
 
-@media (max-width: 480px) {
-    .wrapper {
-        padding: 0.25rem;
-    }
-}
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
-}
 
 
 .wrapper {
     position: relative;
-    width: 400px;
+    width: 60%;
+    max-width: 400px;
     height: 440px;
     background: transparent;
     border: 2px solid var(--dark-pink);
