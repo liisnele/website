@@ -9,3 +9,7 @@ registerLink.addEventListener('click', ()=> {
 loginLink.addEventListener('click', ()=> {
     wrapper.classList.remove('active');
 });
+
+function validateForm() {
+    
+}
