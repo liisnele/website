@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8" http-equiv="refresh" content="6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esileht</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <div class="wrapper">
+
+        <div class="form-box login">
+            <h2 class="pealkiri"> login </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"> <ion-icon name="contact"></ion-icon> </span>
+                    <input type="text" required>
+                    <Label>user</Label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"> <ion-icon name="lock"></ion-icon> </span>
+                    <input type="password" required>
+                    <Label>password</Label>
+                </div>
+                <div class="remember-forgot">
+                    <label> <input type="checkbox"> remember me </label>
+                    <a href="#"> forgot password </a>
+                </div>
+                <button type="submit" class="button"> login </button>
+                <div class="login-register">
+                    <p> no account? <a href="#" class="register-link"> register </a> </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2 class="pealkiri"> register </h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"> <ion-icon name="contact"></ion-icon> </span>
+                    <input type="text" required>
+                    <Label>user</Label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"> <ion-icon name="mail"></ion-icon> </span>
+                    <input type="email" required>
+                    <Label>email</Label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"> <ion-icon name="lock"></ion-icon> </span>
+                    <input type="password" required>
+                    <Label>password</Label>
+                </div>
+                <div class="remember-forgot">
+                    <label> <input type="checkbox"> remember me </label>
+                </div>
+                <button type="submit" class="button"> register </button>
+                <div class="login-register">
+                    <p> have an account? <a href="#" class="login-link"> login </a> </p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    <!---ikoonid--->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
